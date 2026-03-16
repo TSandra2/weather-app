@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🌤️ Weather App</h1>
+            <div class="search-bar">
+                <input type="text" id="city-input" placeholder="Enter city name" aria-label="City name">
+                <button id="search-button" aria-label="Search">🔍</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="weather-info" id="weather-info">
+            <div class="weather-header">
+                <h2 id="city-name"></h2>
+                <div id="weather-icon"></div>
+            </div>
+            <div class="weather-details">
+                <p id="temperature">Temperature: <span></span></p>
+                <p id="description">Description: <span></span></p>
+                <p id="humidity">Humidity: <span></span></p>
+                <p id="wind-speed">Wind Speed: <span></span></p>
+            </div>
+        </div>
+
+        <div class="error-message" id="error-message">
+            <p id="error-text"></p>
+        </div>
+
+        <div class="loading" id="loading">
+            <p>Loading weather data...</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Created by Tatah Sandra © 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
