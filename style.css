@@ -117,7 +117,7 @@ main {
 }
 
 .error-message {
-    background-color: rgba(231, 76, 60, 0.9);
+    background-color: rgba(60, 163, 231, 0.9);
     color: white;
     padding: 15px;
     border-radius: 10px;
